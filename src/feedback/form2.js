@@ -10,7 +10,7 @@ class Form2 extends React.Component{
                 return (
                     <div key={index} className="data">
                     <br/>
-                    Name : {value.name} | Department : {value.contact} | Rating : {value.rating}
+                    Name : {value.name} | Department : {value.dept} | Rating : {value.rating}
                     </div>
                     )
                 })}
